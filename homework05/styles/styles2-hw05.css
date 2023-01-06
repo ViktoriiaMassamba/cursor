@@ -1,0 +1,104 @@
+body {
+    background: #000000;
+    display: flex;
+}
+
+.tab-3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 695px;
+}
+
+table {
+    border: 0.5px solid #ffffff; /*границы вокруг таблицы*/
+    color: #ffffff;
+    text-align: left;
+    border-collapse: collapse; /*гоизонтальные линии таблицы*/ 
+}
+
+th, td {
+    border-bottom: 0.5px solid #f0f0f0; 
+    color: #ffffff;
+    height: 50px;
+}
+
+#title_row {
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#column_1 {
+    width: 295px;
+    padding-left: 10px;
+}
+
+#column_2 {
+    width: 200px;
+}
+
+#column_3 {
+    width: 150px;
+    text-align: right;
+}
+
+#row_1, #row_2, #row_3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #eceaea;
+    padding-left: 10px;
+}
+
+#row_1_1, #row_2_1, #row_3_1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #bbbbbb;
+    padding-left: 10px;
+    }
+
+#row_1_2, #row_2_2, #row_3_2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #bbbbbb;
+}
+
+#row_1_3, #row_2_3, #row_3_3 {
+    padding-right: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.img1 {
+    padding-left: 5px;
+}
+
+.img4 {
+    padding-left: 10px;
+}
+
+#row_3_1, #row_3_2, #row_3_3 {
+    border-bottom: 0;
+}
+
+input[type="search"]{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px #bbbbbb;
+    padding-left: 10px;
+    background: #bbbbbb48;
+    margin-right: 5px;
+    padding: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #bbbbbb;
+    padding-left: 10px;
+    background-repeat: no-repeat;
+}
